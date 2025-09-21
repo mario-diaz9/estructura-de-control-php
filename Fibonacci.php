@@ -18,7 +18,7 @@ function generarFibonacci($n) {
     return $fibonacci;
 }
 
-// Función que imprime el resultado en una tabla Bootstrap
+// Función que imprime el resultado 
 function mostrarFibonacci($serie) {
     if (empty($serie)) {
         return '<div class="alert alert-warning">No se pudo generar la serie.</div>';
@@ -81,4 +81,5 @@ if (isset($_POST['numero'])) {
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
