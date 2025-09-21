@@ -8,7 +8,7 @@ function esPalindromo($texto) {
     return $textoLimpio === $reverso;
 }
 
-// Función para mostrar resultado en Bootstrap
+// Función para mostrar resultado 
 function mostrarPalindromo($cadena, $resultado) {
     $mensaje = $resultado 
         ? "La cadena <strong>\"$cadena\"</strong> es un <span class='text-success'>PALÍNDROMO ✅</span>" 
@@ -62,3 +62,4 @@ if (isset($_POST['texto'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
